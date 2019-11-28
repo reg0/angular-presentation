@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'fresh-ng';
+  collection = [{name: 'John'}, {name: 'Sarah'}, {name: 'Thomas'}, {name: 'Monica'}];
+
+  conditionMet() {
+    return true;
+  }
 }
